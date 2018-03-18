@@ -1,0 +1,48 @@
+{
+    "data": "example.csv",
+    "y_name": "y",
+    "labels": {
+        "y": "Predicted Probability of Y",
+        "index_1": "Index 1",
+        "index_2": "Index 2"
+    },
+    "index_colnames": {
+        "index_1": [
+            "x_1_1",
+            "x_1_2",
+            "x_1_3",
+            "x_1_4",
+            "x_1_5"
+        ],
+        "index_2": [
+            "x_2_1"
+        ]
+    },
+    "pilot": {
+        "coeffs_start": {
+            "index_1": {
+                "x_1_1": 1,
+                "x_1_2": 1,
+                "x_1_3": 1,
+                "x_1_4": 1,
+                "x_1_5": 1
+            },
+            "index_2": {
+                "x_2_1": 1
+            }
+        },
+        "trim": {
+            "lower": 0.01,
+            "upper": 0.99
+        },
+        "n_smoothing_stages": 2,
+        "maxiter": 1000
+    },
+    "final": {
+        "trim": {
+            "lower": 0.01,
+            "upper": 0.99
+        },
+        "maxiter": 10000
+    }
+}
