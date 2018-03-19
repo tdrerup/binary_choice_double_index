@@ -38,7 +38,7 @@ We will show the basic usage of the commands using an example dataset (`./data/e
 
 The specification we are going to estimate is saved in `./models/example.json`. The layout of this file is straightforward. We will discuss the individual components below. To fit the model, type
 ```
-  python ./src/kv_fit.py example
+  python kv_fit.py example
 ```
 You should see output like the following:
 ```
