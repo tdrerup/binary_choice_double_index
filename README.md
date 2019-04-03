@@ -24,7 +24,7 @@ All of the code below has been tested on a Mac. Let me know if you are intereste
 
 While the code *may* work with your current Python (≥ 3.4) installation, it is helpful to work in a preset environment. To do so, first install either [Anaconda](https://www.anaconda.com/download/) or [Miniconda](https://conda.io/miniconda.html). Then type
 ```
-  source set-env.bash
+  source set-env.sh
 ```
 to install all required packages in the version specified in `environment.yml`. Activate the environment using
 ```
