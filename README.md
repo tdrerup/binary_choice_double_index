@@ -26,11 +26,16 @@ While the code *may* work with your current Python (≥ 3.4) installation, it is
 ```
   source set-env.sh
 ```
-to install all required packages in the version specified in `environment.yml`. Activate the environment using
+to install all required packages in the version specified in `environment.yml`. You may need to use ```bash set-env.sh``` instead.
+
+Activate the environment using
 ```
   source activate binary_choice_double_index
 ```
-Whenever you work with the code, be sure to activate the environment beforehand.
+Whenever you work with the code, be sure to activate the environment beforehand. For newer versions of conda you may need to activate the environment using
+```
+  conda activate binary_choice_double_index
+```
 
 ### Usage Example.
 
